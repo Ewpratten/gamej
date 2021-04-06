@@ -236,7 +236,7 @@ public class Draw extends JPanel {
     /**
      * draws an image centered on x,y with an angle, scaled on the x and y axis.
      * will not prevent drawing if sprite is off screen.
-     * @param spr   {@link game.drawing.Sprites#get(String) Sprites.get(sprite name)}
+     * @param imageName   {@link game.drawing.Sprites#get(String) Sprites.get(sprite name)}
      * @param x
      * @param y
      * @param angle radians
@@ -257,7 +257,7 @@ public class Draw extends JPanel {
 
     /**
      * draws an image centered on x,y. will not prevent drawing if off screen.
-     * @param spr {@link game.drawing.Sprites#get(String) Sprites.get(sprite name)}
+     * @param imageName {@link game.drawing.Sprites#get(String) Sprites.get(sprite name)}
      * @param x
      * @param y
      */
@@ -268,7 +268,7 @@ public class Draw extends JPanel {
 
     /**
      * draws an image centered on x,y with an angle, scaled on the x and y axis.
-     * @param spr   {@link game.drawing.Sprites#get(String) Sprites.get(spritename)}
+     * @param imageName   {@link game.drawing.Sprites#get(String) Sprites.get(spritename)}
      * @param x
      * @param y
      * @param angle radians
@@ -293,7 +293,7 @@ public class Draw extends JPanel {
 
     /**
      * draws an image centered on x,y
-     * @param spr {@link game.drawing.Sprites#get(String) Sprites.get(sprite name)}
+     * @param imageName {@link game.drawing.Sprites#get(String) Sprites.get(sprite name)}
      * @param x
      * @param y
      */

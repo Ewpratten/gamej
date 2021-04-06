@@ -144,7 +144,7 @@ public class Input {
     }
     
     /** 
-     * @param id of a key
+     * @param keyID of a key
      * @return only true the first cycle the button is held down 
      */
     public static boolean keyClick(int keyID) {
@@ -159,7 +159,7 @@ public class Input {
     }
     
     /** 
-     * @param id of a key 
+     * @param keyID of a key 
      * @return if key is held 
      */
     public static boolean keyDown(int keyID) {
